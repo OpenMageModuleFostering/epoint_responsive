@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<modules>
+		<Epoint_Responsive>
+			<version>1.0.0</version>
+		</Epoint_Responsive>
+	</modules>
+	<global>
+		<models>
+			<eresponsive>
+				<class>Epoint_Responsive_Model</class>
+			</eresponsive>
+			<core>
+				<rewrite>
+					<design_package>Epoint_Responsive_Model_Core_Design_Package</design_package>
+				</rewrite>
+			</core>
+		</models>
+		<helpers>
+			<eresponsive>
+				<class>Epoint_Responsive_Helper</class>
+			</eresponsive>
+		</helpers>
+	</global>
+</config>

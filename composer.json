@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Epoint_Responsive",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Provides the possibility to set a custom theme and/or package for mobile and tablet separately.",
+    "authors": [
+    {
+        "name": "Grosu Alexandru",
+        "email": "alexandru.grosu@epoint.ro"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

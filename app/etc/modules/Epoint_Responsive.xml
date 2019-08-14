@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Epoint_Responsive>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Epoint_Responsive>
+    </modules>
+</config>

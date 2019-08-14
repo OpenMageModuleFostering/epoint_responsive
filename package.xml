@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>Epoint_Responsive</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="https://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Provides the possibility to set a custom theme and/or package for mobile and tablet separately.</summary>
+    <description>The abilty of this extension is to set a custom theme and/or package for the mobile and tablet users. The configuration can be found in System &gt; Configuration &gt; Design &gt; Mobile Theme/Tablet Theme.&#xD;
+The php library that was used to determine if a user  navigates from a mobile device is https://github.com/serbanghita/Mobile-Detect.</description>
+    <notes>This is the first stable version</notes>
+    <authors><author><name>Grosu Alexandru</name><user>epoint</user><email>alexandru.grosu@epoint.ro</email></author></authors>
+    <date>2016-04-20</date>
+    <time>12:55:54</time>
+    <contents><target name="magecommunity"><dir name="Epoint"><dir name="Responsive"><dir name="Helper"><file name="Data.php" hash="347dda4a03f2b93a19f902d5d8590a5e"/></dir><dir name="Model"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Source"><dir name="Design"><dir name="Package"><file name="Theme.php" hash="4e1ac37c3ddf0f2443b3a6186384ac4d"/></dir></dir></dir></dir></dir></dir><dir name="Core"><dir name="Design"><file name="Package.php" hash="4277654c2a933f5ebd3eb52e6d594013"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="3b64a9b89a89d73b0aae6176c3b081a4"/><file name="system.xml" hash="1b4bb4a63af8cb29b7ea4aa2ae9a7924"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Epoint_Responsive.xml" hash="79e2e204c10d3baefc00ed9002a9e396"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>1.0.0</min><max>5.4.0</max></php></required></dependencies>
+</package>
